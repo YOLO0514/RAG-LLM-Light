@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <vType id="emergency" accel="2.0" decel="4.5" sigma="0.5" length="9" maxSpeed="20" color="0,0,1" vClass="emergency" guiShape="emergency"/>
+    <vehicle id="emergencyVehicle1" type="emergency" depart="402" color="1,0,0" departLane="best">
+        <route edges="W2TL TL2E"/>
+    </vehicle>
+    <tlLogic id="TL" type="static" programID="1" offset="0">
+        <phase duration="16" state="GGGGrrrrrrGGGGrrrrrr"/>
+        <phase duration="3" state="yyyyrrrrrryyyyrrrrrr"/>
+        <phase duration="12" state="rrrrGrrrrrrrrrGrrrrr"/>
+        <phase duration="3" state="rrrryrrrrrrrrryrrrrr"/>
+        <phase duration="12" state="rrrrrGGGGrrrrrrGGGGr"/>
+        <phase duration="3" state="rrrrryyyyrrrrrryyyyr"/>
+        <phase duration="20" state="rrrrrrrrrGrrrrrrrrrG"/>
+        <phase duration="3" state="rrrrrrrrryrrrrrrrrry"/>
+    </tlLogic>
+</additional>

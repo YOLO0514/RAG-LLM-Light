@@ -1,0 +1,30 @@
+You are tasked with generating a Q-A pair database for a four-way intersection. Each pair should describe:
+A traffic event (extreme scenario) occurring in a specific traffic phase
+The corresponding traffic language, concisely describing:
+how the capacity of that phase changes, and
+why it changes, using a "due to..." explanation
+Example:
+Traffic Event: A bottleneck occurs in west straight phase Traffic Language: The capacity of west straight phase drops into 0 Legal Basis: Article 47 of the Road Traffic Safety Law of the PRC 
+Legal Reference Materials:
+Road Traffic Safety Law of the People's Republic of China
+Regulations for the Implementation of the Road Traffic Safety Law of the People's Republic of China
+According to:
+{The reference documents}
+Each Q-A pair must cite at least one of the above laws or regulations, including the specific article number as the “Legal Basis”.
+Output Format (Tabular):
+Each Q-A pair must follow this structure:
+Traffic Event: {Event description} in {Phase}
+Traffic Language: The capacity of {Phase} {change in capacity}
+Legal Basis: {Article reference}
+Phase options (select one per pair):
+west straight, east straight, west left-turn, east left-turn, north straight, south straight, south left-turn, north left-turn
+Traffic language must describe capacity changes only, in one of the following forms:
+“drops to zero”
+“decreases”
+“increases”
+Traffic events should be diverse (e.g., emergency vehicle access, pedestrian crossing, flooding, accidents, vehicle breakdowns) and not repeat “bottleneck” scenarios.
+Special Note:
+-This dataset supports real-time traffic control strategies. For example, when an emergency vehicle enters a phase, the traffic language should reflect increased capacity, allowing the algorithm to prioritize clearance—not reduced capacity due to yielding.
+-Please generate the data in Excel table format (tabular data) for easy saving and downstream use.
+
+
