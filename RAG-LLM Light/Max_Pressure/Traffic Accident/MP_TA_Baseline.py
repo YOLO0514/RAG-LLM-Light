@@ -240,9 +240,9 @@ def main():
             if all_stop==0 :
                 if current_time == 4.0 :
                     traci.vehicle.setStop(s_v["v_2"]["vehID"],s_v["v_2"]["edgeID"],pos=s_v["v_2"]["pos"],laneIndex=s_v["v_2"]["laneIndex"],duration=s_v["v_2"]["duration"],flags=0)
-                if current_time == 7.0 :
+                if current_time == 12.0 :
                     traci.vehicle.setStop(s_v["v_3"]["vehID"],s_v["v_3"]["edgeID"],pos=s_v["v_3"]["pos"],laneIndex=s_v["v_3"]["laneIndex"],duration=s_v["v_3"]["duration"],flags=0)
-                if current_time == 10.0 :
+                if current_time == 16.0 :
                     traci.vehicle.setStop(s_v["v_4"]["vehID"],s_v["v_4"]["edgeID"],pos=s_v["v_4"]["pos"],laneIndex=s_v["v_4"]["laneIndex"],duration=s_v["v_4"]["duration"],flags=0)
                     all_stop = 1
                     max_stoptime = current_time

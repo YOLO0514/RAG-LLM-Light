@@ -338,7 +338,7 @@ def max_pressure_controller_normal(phase_pressure_max, phase_now, current_green_
 
 def main():
     current_green_time = 15
-    next_swith_time = 200
+    next_switch_time = 200
     is_stop = 0
     all_stop = 0
     max_stoptime = 0
