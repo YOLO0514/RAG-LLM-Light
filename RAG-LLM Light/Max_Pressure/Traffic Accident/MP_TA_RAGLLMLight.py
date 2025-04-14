@@ -408,7 +408,7 @@ def main():
             elif current_time >3600:
                 break
             else:
-                if current_time == next_swith_time:
+                if current_time == next_switch_time:
                     if is_stop == 0 :
                         check_and_remove_stuck_vehicles(waiting_threshold,phase_4,current_time)
                         stay_time = car_removing(phase_4, net, time_threshold, dist_threshold, current_time,stay_time,excluded_vehicles)
