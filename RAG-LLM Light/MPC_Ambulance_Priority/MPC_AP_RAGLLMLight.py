@@ -12,7 +12,7 @@ from openai import OpenAI
 
 # 根据提供的车道索引构造相位映射
 phase_lane = {
-    1: ['E2TL_0', 'E2TL_1', 'E2TL_2', 'W2TL_0', 'W2TL_1', 'W2TL_2'],  # NS_S
+    1: ['E2TL_0', 'E2TL_1', 'E2TL_2', 'W2TL_0', 'W2TL_1', 'W2TL_2'],  # EW_S
     2: ['E2TL_3', 'W2TL_3'],                                             # EW_L
     3: ['N2TL_0', 'N2TL_1', 'N2TL_2', 'S2TL_0', 'S2TL_1', 'S2TL_2'],     # NS_S
     4: ['N2TL_3', 'S2TL_3']                                              # NS_L

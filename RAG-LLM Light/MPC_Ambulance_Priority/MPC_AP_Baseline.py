@@ -7,10 +7,10 @@ import itertools
 import time
 
 phase_lane = {
-    1: ['E2TL_0', 'E2TL_1', 'E2TL_2', 'W2TL_0', 'W2TL_1', 'W2TL_2'],  # 东西直行+右转
-    2: ['E2TL_3', 'W2TL_3'],                                             # 东西左转
-    3: ['N2TL_0', 'N2TL_1', 'N2TL_2', 'S2TL_0', 'S2TL_1', 'S2TL_2'],     # 南北直行+右转
-    4: ['N2TL_3', 'S2TL_3']                                              # 南北左转
+    1: ['E2TL_0', 'E2TL_1', 'E2TL_2', 'W2TL_0', 'W2TL_1', 'W2TL_2'],  # EW_S
+    2: ['E2TL_3', 'W2TL_3'],                                             # EW_L
+    3: ['N2TL_0', 'N2TL_1', 'N2TL_2', 'S2TL_0', 'S2TL_1', 'S2TL_2'],     # NS_S
+    4: ['N2TL_3', 'S2TL_3']                                              # NS_L
 }
 
 
