@@ -18,7 +18,7 @@ if 'SUMO_HOME' in os.environ:
 else:
     sys.exit("please declare environment variable 'SUMO_HOME'")
 
-net = NetworkData('environment_llama.net.xml')
+net = NetworkData('environment.net.xml')
 
 import re
 
