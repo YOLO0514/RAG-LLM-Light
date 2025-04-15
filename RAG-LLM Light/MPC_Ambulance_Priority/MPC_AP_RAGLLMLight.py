@@ -138,7 +138,7 @@ def llm_suggestion(p_green_list,traffic_event,traffic_language,input,format,stra
             {"role": "user", "content": '''
     <Input and explanation>
     You are now a tuning agent for MPC control algorithm parameters(Green Flow Rate).
-    The pressure for each phase is given below:''' + str(p_green_list) + ''' .
+    The parameter for each phase is given below:''' + str(p_green_list) + ''' .
     The each value in the array represent\n'''+
     str(input)+'''
     respectively.
